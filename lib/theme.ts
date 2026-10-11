@@ -1,0 +1,95 @@
+export const Colors = {
+  primary: {
+    50: '#eef6ff',
+    100: '#d9eaff',
+    200: '#bcd9ff',
+    300: '#8ec1ff',
+    400: '#599fff',
+    500: '#3b82f6',
+    600: '#2563eb',
+    700: '#1d4ed8',
+    800: '#1e40af',
+    900: '#1e3a8a',
+  },
+  ocean: {
+    50: '#ecfeff',
+    100: '#cffafe',
+    200: '#a5f3fc',
+    300: '#67e8f9',
+    400: '#22d3ee',
+    500: '#06b6d4',
+    600: '#0891b2',
+    700: '#0e7490',
+    800: '#155e75',
+    900: '#164e63',
+  },
+  accent: {
+    50: '#fff7ed',
+    100: '#ffedd5',
+    400: '#fb923c',
+    500: '#f97316',
+    600: '#ea580c',
+  },
+  success: {
+    50: '#ecfdf5',
+    100: '#d1fae5',
+    400: '#34d399',
+    500: '#10b981',
+    600: '#059669',
+  },
+  warning: {
+    50: '#fffbeb',
+    100: '#fef3c7',
+    400: '#fbbf24',
+    500: '#f59e0b',
+    600: '#d97706',
+  },
+  error: {
+    50: '#fef2f2',
+    100: '#fee2e2',
+    400: '#f87171',
+    500: '#ef4444',
+    600: '#dc2626',
+  },
+  neutral: {
+    0: '#ffffff',
+    50: '#f8fafc',
+    100: '#f1f5f9',
+    200: '#e2e8f0',
+    300: '#cbd5e1',
+    400: '#94a3b8',
+    500: '#64748b',
+    600: '#475569',
+    700: '#334155',
+    800: '#1e293b',
+    900: '#0f172a',
+    950: '#020617',
+  },
+};
+
+export const Spacing = {
+  xs: 4,
+  sm: 8,
+  md: 16,
+  lg: 24,
+  xl: 32,
+  xxl: 48,
+};
+
+export const Radius = {
+  sm: 8,
+  md: 12,
+  lg: 16,
+  xl: 24,
+  full: 9999,
+};
+
+export const Typography = {
+  hero: { fontSize: 28, fontWeight: '700' as const, lineHeight: 36 },
+  h1: { fontSize: 24, fontWeight: '700' as const, lineHeight: 32 },
+  h2: { fontSize: 20, fontWeight: '600' as const, lineHeight: 28 },
+  h3: { fontSize: 18, fontWeight: '600' as const, lineHeight: 26 },
+  body: { fontSize: 16, fontWeight: '400' as const, lineHeight: 24 },
+  small: { fontSize: 14, fontWeight: '400' as const, lineHeight: 20 },
+  caption: { fontSize: 12, fontWeight: '400' as const, lineHeight: 16 },
+};
