@@ -17,3 +17,13 @@
 {"_e":"metro:client_log","_t":1791736838868,"level":"log","data":["[Weather] 프록시 응답: HTTP 404 "]}
 {"_e":"metro:client_log","_t":1791736838868,"level":"warn","data":["[Weather] 프록시 응답 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
 {"_e":"metro:bundling:started","_t":1791736857103,"id":"5","platform":"web","environment":null,"entry":"node_modules/expo-router/entry.js"}
+{"_e":"metro:bundling:done","_t":1791736857776,"id":"5","total":1,"ms":672.35}
+{"_e":"metro:client_log","_t":1791736857918,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1791736858027,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261012"]}
+{"_e":"metro:client_log","_t":1791736858057,"level":"warn","data":["[Tide] 프록시 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
+{"_e":"metro:client_log","_t":1791736858057,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261012"]}
+{"_e":"metro:client_log","_t":1791736858058,"level":"error","data":["Supabase request failed","{\"body\": \"{\\\"code\\\":\\\"42703\\\",\\\"details\\\":null,\\\"hint\\\":null,\\\"message\\\":\\\"column app_settings.wind_unit does not exist\\\"}\", \"status\": 400, \"url\": \"https://zulrqnrmdyewrcnbmccy.supabase.co/rest/v1/app_settings?select=selected_region%2Cwind_unit&limit=1\"}","\n\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  i.clone.text.then.console.error.requestUrl (../../.preview-script.js:3:29805)\u001b[39m"]}
+{"_e":"metro:client_log","_t":1791736858087,"level":"warn","data":["[Tide] 프록시 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
+{"_e":"metro:client_log","_t":1791736858097,"level":"log","data":["[Weather] 프록시 호출: URL=https://zulrqnrmdyewrcnbmccy.supabase.co/functions/v1/api-proxy/weather?nx=49&ny=130&base_date=20261011&base_time=2300, 격자=(49,130), base_date=20261011, base_time=2300"]}
+{"_e":"metro:client_log","_t":1791736858118,"level":"log","data":["[Weather] 프록시 응답: HTTP 404 "]}
+{"_e":"metro:client_log","_t":1791736858118,"level":"warn","data":["[Weather] 프록시 응답 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
