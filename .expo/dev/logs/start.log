@@ -17,3 +17,4 @@
 {"_e":"metro:client_log","_t":1791736110862,"level":"log","data":["[Weather] 프록시 응답: HTTP 404 "]}
 {"_e":"metro:client_log","_t":1791736110862,"level":"warn","data":["[Weather] 프록시 응답 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
 {"_e":"metro:bundling:started","_t":1791736111078,"id":"8","platform":"android","environment":null,"entry":"node_modules/expo-router/entry.js"}
+{"_e":"metro:bundling:done","_t":1791736124607,"id":"8","total":3250,"ms":13528.605}
