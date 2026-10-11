@@ -38,3 +38,4 @@
 {"_e":"metro:client_log","_t":1791736996477,"level":"log","data":["[Weather] 프록시 호출: URL=https://zulrqnrmdyewrcnbmccy.supabase.co/functions/v1/api-proxy/weather?nx=49&ny=130&base_date=20261011&base_time=2300, 격자=(49,130), base_date=20261011, base_time=2300"]}
 {"_e":"metro:client_log","_t":1791736996507,"level":"log","data":["[Weather] 프록시 응답: HTTP 404 "]}
 {"_e":"metro:client_log","_t":1791736996507,"level":"warn","data":["[Weather] 프록시 응답 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
+{"_e":"metro:bundling:started","_t":1791737058691,"id":"e","platform":"web","environment":null,"entry":"node_modules/expo-router/entry.js"}
