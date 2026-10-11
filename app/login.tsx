@@ -2,6 +2,8 @@ import { useState, useRef, useEffect } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ActivityIndicator, ScrollView, Platform } from 'react-native';
 import { Waves } from 'lucide-react-native';
 import { LinearGradient } from 'expo-linear-gradient';
+import * as WebBrowser from 'expo-web-browser';
+import * as Linking from 'expo-linking';
 import { Colors, Typography, Spacing, Radius } from '@/lib/theme';
 import { supabase } from '@/lib/supabase';
 import { useRouter } from 'expo-router';
@@ -48,14 +50,14 @@ export default function LoginScreen() {
       const redirectTo =
         Platform.OS === 'web'
           ? `${window.location.origin}/login`
-          : 'myapp://login';
+          : Linking.createURL('login');
 
-      const { error: oauthError } = await supabase.auth.signInWithOAuth({
+      const { data, error: oauthError } = await supabase.auth.signInWithOAuth({
         provider: provider as any,
-        options: { redirectTo },
+        options: { redirectTo, skipBrowserRedirect: true },
       });
 
-      if (oauthError) {
+      if (oauthError || !data?.url) {
         setError(
           provider === 'kakao'
             ? '카카오 로그인에 실패했습니다. 잠시 후 다시 시도해주세요.'
@@ -66,9 +68,21 @@ export default function LoginScreen() {
         return;
       }
 
-      // On native, the OAuth flow opens a browser session.
-      // The session is picked up by onAuthStateChange in useAuth.
-      // On web, the browser redirects away so we don't need to do anything here.
+      // On native, open the OAuth URL in an in-app browser session.
+      // The browser redirects back to fishingapp://login with the auth tokens,
+      // and onAuthStateChange picks up the resulting session.
+      // On web, fall back to a full redirect.
+      if (Platform.OS === 'web') {
+        window.location.href = data.url;
+      } else {
+        const result = await WebBrowser.openAuthSessionAsync(
+          data.url,
+          redirectTo
+        );
+        if (result.type === 'dismiss' || result.type === 'cancel') {
+          // User cancelled — no error needed
+        }
+      }
     } catch (e) {
       setError('로그인 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.');
     } finally {
