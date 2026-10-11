@@ -8,3 +8,11 @@
 {"_e":"metro:bundling:started","_t":1791736445373,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo-router/entry.js"}
 {"_e":"metro:bundling:done","_t":1791736458142,"id":"1","total":2622,"ms":12768.035}
 {"_e":"metro:client_log","_t":1791736458336,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1791736459393,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261012"]}
+{"_e":"metro:client_log","_t":1791736459428,"level":"warn","data":["[Tide] 프록시 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
+{"_e":"metro:client_log","_t":1791736459429,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261012"]}
+{"_e":"metro:client_log","_t":1791736459435,"level":"error","data":["Supabase request failed","{\"body\": \"{\\\"code\\\":\\\"42703\\\",\\\"details\\\":null,\\\"hint\\\":null,\\\"message\\\":\\\"column app_settings.selected_region does not exist\\\"}\", \"status\": 400, \"url\": \"https://zulrqnrmdyewrcnbmccy.supabase.co/rest/v1/app_settings?select=selected_region%2Cwind_unit&limit=1\"}","\n\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  i.clone.text.then.console.error.requestUrl (../../.preview-script.js:3:29805)\u001b[39m"]}
+{"_e":"metro:client_log","_t":1791736459473,"level":"warn","data":["[Tide] 프록시 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
+{"_e":"metro:client_log","_t":1791736459473,"level":"log","data":["[Weather] 프록시 호출: URL=https://zulrqnrmdyewrcnbmccy.supabase.co/functions/v1/api-proxy/weather?nx=49&ny=130&base_date=20261011&base_time=2300, 격자=(49,130), base_date=20261011, base_time=2300"]}
+{"_e":"metro:client_log","_t":1791736459524,"level":"log","data":["[Weather] 프록시 응답: HTTP 404 "]}
+{"_e":"metro:client_log","_t":1791736459524,"level":"warn","data":["[Weather] 프록시 응답 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
