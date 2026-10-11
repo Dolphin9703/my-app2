@@ -9,3 +9,6 @@
 {"_e":"metro:bundling:started","_t":1791735734316,"id":"2","platform":"web","environment":null,"entry":"node_modules/expo-router/entry.js"}
 {"_e":"metro:bundling:started","_t":1791735735933,"id":"3","platform":"web","environment":null,"entry":"node_modules/expo-router/entry.js"}
 {"_e":"metro:bundling:done","_t":1791735746640,"id":"1","total":2622,"ms":12415.470001}
+{"_e":"metro:bundling:done","_t":1791735747210,"id":"2","total":1,"ms":12894.375}
+{"_e":"metro:bundling:done","_t":1791735747814,"id":"3","total":1,"ms":11880.054999}
+{"_e":"metro:client_log","_t":1791735748003,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
