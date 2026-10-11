@@ -12,3 +12,11 @@
 {"_e":"metro:bundling:done","_t":1791735747210,"id":"2","total":1,"ms":12894.375}
 {"_e":"metro:bundling:done","_t":1791735747814,"id":"3","total":1,"ms":11880.054999}
 {"_e":"metro:client_log","_t":1791735748003,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1791735748613,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261012"]}
+{"_e":"metro:client_log","_t":1791735748647,"level":"warn","data":["[Tide] 프록시 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
+{"_e":"metro:client_log","_t":1791735748648,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261012"]}
+{"_e":"metro:client_log","_t":1791735748653,"level":"error","data":["Supabase request failed","{\"body\": \"{\\\"code\\\":\\\"PGRST205\\\",\\\"details\\\":null,\\\"hint\\\":null,\\\"message\\\":\\\"Could not find the table 'public.app_settings' in the schema cache\\\"}\", \"status\": 404, \"url\": \"https://zulrqnrmdyewrcnbmccy.supabase.co/rest/v1/app_settings?select=selected_region%2Cwind_unit&limit=1\"}","\n\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  i.clone.text.then.console.error.requestUrl (../../.preview-script.js:3:29805)\u001b[39m"]}
+{"_e":"metro:client_log","_t":1791735748682,"level":"warn","data":["[Tide] 프록시 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
+{"_e":"metro:client_log","_t":1791735748682,"level":"log","data":["[Weather] 프록시 호출: URL=https://zulrqnrmdyewrcnbmccy.supabase.co/functions/v1/api-proxy/weather?nx=49&ny=130&base_date=20261011&base_time=2300, 격자=(49,130), base_date=20261011, base_time=2300"]}
+{"_e":"metro:client_log","_t":1791735748712,"level":"log","data":["[Weather] 프록시 응답: HTTP 404 "]}
+{"_e":"metro:client_log","_t":1791735748712,"level":"warn","data":["[Weather] 프록시 응답 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
