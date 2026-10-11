@@ -6,3 +6,5 @@
 {"_e":"expo:dev-tools-plugin:load","_t":1791736095434,"plugins":[]}
 {"_e":"metro:instantiate","_t":1791736097201,"atlas":false,"workers":6,"host":"::","port":8081}
 {"_e":"metro:bundling:started","_t":1791736097437,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo-router/entry.js"}
+{"_e":"metro:bundling:done","_t":1791736109794,"id":"1","total":2622,"ms":12356.815}
+{"_e":"metro:client_log","_t":1791736109993,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
