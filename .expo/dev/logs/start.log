@@ -1502,3 +1502,13 @@
 {"_e":"metro:client_log","_t":1791819198607,"level":"log","data":["[Weather] 프록시 호출: URL=https://zulrqnrmdyewrcnbmccy.supabase.co/functions/v1/api-proxy/weather?nx=49&ny=130&base_date=20261012&base_time=2300, 격자=(49,130), base_date=20261012, base_time=2300"]}
 {"_e":"metro:client_log","_t":1791819198667,"level":"log","data":["[Weather] 프록시 응답: HTTP 401 "]}
 {"_e":"metro:client_log","_t":1791819198667,"level":"warn","data":["[Weather] 프록시 응답 오류: HTTP 401, body={\"code\":\"UNAUTHORIZED_NO_AUTH_HEADER\",\"message\":\"Missing authorization header\"}"]}
+{"_e":"metro:bundling:started","_t":1791819261984,"id":"46","platform":"web","environment":null,"entry":"node_modules/expo-router/entry.js"}
+{"_e":"metro:bundling:done","_t":1791819262709,"id":"46","total":1,"ms":725.405001}
+{"_e":"metro:client_log","_t":1791819262927,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1791819263267,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261013"]}
+{"_e":"metro:client_log","_t":1791819263326,"level":"warn","data":["[Tide] 프록시 오류: HTTP 401, body={\"code\":\"UNAUTHORIZED_NO_AUTH_HEADER\",\"message\":\"Missing authorization header\"}"]}
+{"_e":"metro:client_log","_t":1791819263337,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261013"]}
+{"_e":"metro:client_log","_t":1791819263407,"level":"warn","data":["[Tide] 프록시 오류: HTTP 401, body={\"code\":\"UNAUTHORIZED_NO_AUTH_HEADER\",\"message\":\"Missing authorization header\"}"]}
+{"_e":"metro:client_log","_t":1791819263407,"level":"log","data":["[Weather] 프록시 호출: URL=https://zulrqnrmdyewrcnbmccy.supabase.co/functions/v1/api-proxy/weather?nx=49&ny=130&base_date=20261012&base_time=2300, 격자=(49,130), base_date=20261012, base_time=2300"]}
+{"_e":"metro:client_log","_t":1791819263477,"level":"log","data":["[Weather] 프록시 응답: HTTP 401 "]}
+{"_e":"metro:client_log","_t":1791819263477,"level":"warn","data":["[Weather] 프록시 응답 오류: HTTP 401, body={\"code\":\"UNAUTHORIZED_NO_AUTH_HEADER\",\"message\":\"Missing authorization header\"}"]}
