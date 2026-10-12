@@ -1158,3 +1158,7 @@
 {"_e":"metro:client_log","_t":1791816635187,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261012"]}
 {"_e":"metro:client_log","_t":1791816636186,"level":"warn","data":["[Tide] 프록시 오류: HTTP 401, body={\"code\":\"UNAUTHORIZED_NO_AUTH_HEADER\",\"message\":\"Missing authorization header\"}"]}
 {"_e":"metro:client_log","_t":1791816636186,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261012"]}
+{"_e":"metro:client_log","_t":1791816637177,"level":"warn","data":["[Tide] 프록시 오류: HTTP 401, body={\"code\":\"UNAUTHORIZED_NO_AUTH_HEADER\",\"message\":\"Missing authorization header\"}"]}
+{"_e":"metro:client_log","_t":1791816637177,"level":"log","data":["[Weather] 프록시 호출: URL=https://zulrqnrmdyewrcnbmccy.supabase.co/functions/v1/api-proxy/weather?nx=49&ny=130&base_date=20261012&base_time=2300, 격자=(49,130), base_date=20261012, base_time=2300"]}
+{"_e":"metro:client_log","_t":1791816637257,"level":"log","data":["[Weather] 프록시 응답: HTTP 401 "]}
+{"_e":"metro:client_log","_t":1791816637257,"level":"warn","data":["[Weather] 프록시 응답 오류: HTTP 401, body={\"code\":\"UNAUTHORIZED_NO_AUTH_HEADER\",\"message\":\"Missing authorization header\"}"]}
