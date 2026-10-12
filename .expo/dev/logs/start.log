@@ -326,3 +326,5 @@
 {"_e":"metro:bundling:done","_t":1791810333653,"id":"w","total":1,"ms":719.8}
 {"_e":"metro:client_log","_t":1791810333807,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
 {"_e":"metro:client_log","_t":1791810334107,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261012"]}
+{"_e":"metro:client_log","_t":1791810336267,"level":"warn","data":["[Tide] 프록시 오류: HTTP 401, body={\"code\":\"UNAUTHORIZED_NO_AUTH_HEADER\",\"message\":\"Missing authorization header\"}"]}
+{"_e":"metro:client_log","_t":1791810336267,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261012"]}
