@@ -6,3 +6,8 @@
 {"_e":"expo:dev-tools-plugin:load","_t":1791807857706,"plugins":[]}
 {"_e":"metro:instantiate","_t":1791807859486,"atlas":false,"workers":6,"host":"::","port":8081}
 {"_e":"metro:bundling:started","_t":1791807859693,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo-router/entry.js"}
+{"_e":"metro:bundling:done","_t":1791807872480,"id":"1","total":2622,"ms":12786.855}
+{"_e":"metro:client_log","_t":1791807872679,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1791807873067,"level":"log","data":["[Weather] 프록시 호출: URL=https://zulrqnrmdyewrcnbmccy.supabase.co/functions/v1/api-proxy/weather?nx=49&ny=130&base_date=20261012&base_time=2000, 격자=(49,130), base_date=20261012, base_time=2000"]}
+{"_e":"metro:client_log","_t":1791807873197,"level":"log","data":["[Weather] 프록시 응답: HTTP 404 "]}
+{"_e":"metro:client_log","_t":1791807873197,"level":"warn","data":["[Weather] 프록시 응답 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
