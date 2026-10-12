@@ -51,3 +51,12 @@
 {"_e":"metro:client_log","_t":1791808042797,"level":"log","data":["[Weather] 프록시 응답: HTTP 404 "]}
 {"_e":"metro:client_log","_t":1791808042797,"level":"warn","data":["[Weather] 프록시 응답 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
 {"_e":"metro:bundling:started","_t":1791808103144,"id":"6","platform":"web","environment":null,"entry":"node_modules/expo-router/entry.js"}
+{"_e":"metro:bundling:done","_t":1791808103839,"id":"6","total":1,"ms":695.304999}
+{"_e":"metro:client_log","_t":1791808103988,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1791808104437,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261012"]}
+{"_e":"metro:client_log","_t":1791808104477,"level":"warn","data":["[Tide] 프록시 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
+{"_e":"metro:client_log","_t":1791808104477,"level":"log","data":["[Tide] 프록시 호출: 관측소=DT_0050, 날짜=20261012"]}
+{"_e":"metro:client_log","_t":1791808104517,"level":"warn","data":["[Tide] 프록시 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
+{"_e":"metro:client_log","_t":1791808104517,"level":"log","data":["[Weather] 프록시 호출: URL=https://zulrqnrmdyewrcnbmccy.supabase.co/functions/v1/api-proxy/weather?nx=49&ny=130&base_date=20261012&base_time=2000, 격자=(49,130), base_date=20261012, base_time=2000"]}
+{"_e":"metro:client_log","_t":1791808104557,"level":"log","data":["[Weather] 프록시 응답: HTTP 404 "]}
+{"_e":"metro:client_log","_t":1791808104557,"level":"warn","data":["[Weather] 프록시 응답 오류: HTTP 404, body={\"code\":\"NOT_FOUND\",\"message\":\"Requested function was not found\"}"]}
